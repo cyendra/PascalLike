@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Token">
+      <UniqueIdentifier>{66d203f4-3030-4325-b89e-6a834c8c6ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Token">
+      <UniqueIdentifier>{129ee20f-df8d-4adf-8c2e-513e7f9d1dba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Token\Token.h">
+      <Filter>头文件\Token</Filter>
+    </ClInclude>
+    <ClInclude Include="std.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Token\NumToken.h">
+      <Filter>头文件\Token</Filter>
+    </ClInclude>
+    <ClInclude Include="Token\IntegerToken.h">
+      <Filter>头文件\Token</Filter>
+    </ClInclude>
+    <ClInclude Include="Token\RealToken.h">
+      <Filter>头文件\Token</Filter>
+    </ClInclude>
+    <ClInclude Include="Token\StrToken.h">
+      <Filter>头文件\Token</Filter>
+    </ClInclude>
+    <ClInclude Include="Token\IdToken.h">
+      <Filter>头文件\Token</Filter>
+    </ClInclude>
+    <ClInclude Include="Token\ReservedToken.h">
+      <Filter>头文件\Token</Filter>
+    </ClInclude>
+    <ClInclude Include="Token\OperatorToken.h">
+      <Filter>头文件\Token</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Token\Token.cpp">
+      <Filter>源文件\Token</Filter>
+    </ClCompile>
+    <ClCompile Include="MainTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Token\NumToken.cpp">
+      <Filter>源文件\Token</Filter>
+    </ClCompile>
+    <ClCompile Include="Token\IntegerToken.cpp">
+      <Filter>源文件\Token</Filter>
+    </ClCompile>
+    <ClCompile Include="Token\RealToken.cpp">
+      <Filter>源文件\Token</Filter>
+    </ClCompile>
+    <ClCompile Include="Token\StrToken.cpp">
+      <Filter>源文件\Token</Filter>
+    </ClCompile>
+    <ClCompile Include="Token\IdToken.cpp">
+      <Filter>源文件\Token</Filter>
+    </ClCompile>
+    <ClCompile Include="Token\ReservedToken.cpp">
+      <Filter>源文件\Token</Filter>
+    </ClCompile>
+    <ClCompile Include="Token\OperatorToken.cpp">
+      <Filter>源文件\Token</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
