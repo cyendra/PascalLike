@@ -19,6 +19,12 @@
     <Filter Include="头文件\Token">
       <UniqueIdentifier>{129ee20f-df8d-4adf-8c2e-513e7f9d1dba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Lexer">
+      <UniqueIdentifier>{758de7c4-0f1e-4ae7-ad3d-3dcaa175fb38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Lexer">
+      <UniqueIdentifier>{43f3cf57-fa08-4e72-80b1-d91802b19e01}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Token\Token.h">
@@ -48,6 +54,15 @@
     <ClInclude Include="Token\OperatorToken.h">
       <Filter>头文件\Token</Filter>
     </ClInclude>
+    <ClInclude Include="Token\alltoken.h">
+      <Filter>头文件\Token</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexer\Lexer.h">
+      <Filter>头文件\Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexer\Reader.h">
+      <Filter>头文件\Lexer</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Token\Token.cpp">
@@ -76,6 +91,12 @@
     </ClCompile>
     <ClCompile Include="Token\OperatorToken.cpp">
       <Filter>源文件\Token</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexer\Lexer.cpp">
+      <Filter>源文件\Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexer\Reader.cpp">
+      <Filter>源文件\Lexer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
