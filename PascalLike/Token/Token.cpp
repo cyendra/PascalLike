@@ -53,7 +53,12 @@ bool Token::isWord(const char* s)
 }
 
 std::set<std::string> Token::words = {
-	"if", "else"
+	"program", "function", "procedure",
+	"array", "const", "file", "var", "of",
+	"if", "else", "then",
+	"for", "to", "downto", "do", "while",
+	"and", "or", "not", "xor", "div", "mod",
+	"begin", "end", "nil"
 };
 
 bool Token::inReserved(const char* s)
