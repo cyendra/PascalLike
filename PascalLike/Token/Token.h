@@ -7,13 +7,14 @@ class Token
 
 public:
 	
-	// 词法单元的枚举类型，有数字、字符串、标识符
-	enum Type { Unknown, Number, String, Identifier };
+	// 词法单元的枚举类型，有数字、字符串、标识符、记号
+	enum Type { Unknown, Number, String, Identifier, Sign };
 
 	// 具体的标签
 	enum Tag { 
 		None, Integer, Real,
-		Reserved, Operator
+		Reserved, Operator,
+		Eof, Eol
 	};
 
 	// 获取词法单元的类型(Number, String, Identifier)

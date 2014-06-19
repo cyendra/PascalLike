@@ -9,3 +9,5 @@
 #include "IdToken.h"
 #include "OperatorToken.h"
 #include "ReservedToken.h"
+
+#include "SignToken.h"

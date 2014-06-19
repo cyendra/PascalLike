@@ -65,6 +65,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Lexer\Lexer.h" />
+    <ClInclude Include="Lexer\Matcher.h" />
     <ClInclude Include="Lexer\Reader.h" />
     <ClInclude Include="std.h" />
     <ClInclude Include="Token\alltoken.h" />
@@ -74,11 +75,13 @@
     <ClInclude Include="Token\OperatorToken.h" />
     <ClInclude Include="Token\RealToken.h" />
     <ClInclude Include="Token\ReservedToken.h" />
+    <ClInclude Include="Token\SignToken.h" />
     <ClInclude Include="Token\StrToken.h" />
     <ClInclude Include="Token\Token.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lexer\Lexer.cpp" />
+    <ClCompile Include="Lexer\Matcher.cpp" />
     <ClCompile Include="Lexer\Reader.cpp" />
     <ClCompile Include="MainTest.cpp" />
     <ClCompile Include="Token\IdToken.cpp" />
@@ -87,6 +90,7 @@
     <ClCompile Include="Token\OperatorToken.cpp" />
     <ClCompile Include="Token\RealToken.cpp" />
     <ClCompile Include="Token\ReservedToken.cpp" />
+    <ClCompile Include="Token\SignToken.cpp" />
     <ClCompile Include="Token\StrToken.cpp" />
     <ClCompile Include="Token\Token.cpp" />
   </ItemGroup>

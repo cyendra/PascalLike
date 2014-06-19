@@ -63,6 +63,12 @@
     <ClInclude Include="Lexer\Reader.h">
       <Filter>头文件\Lexer</Filter>
     </ClInclude>
+    <ClInclude Include="Token\SignToken.h">
+      <Filter>头文件\Token</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexer\Matcher.h">
+      <Filter>头文件\Lexer</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Token\Token.cpp">
@@ -96,6 +102,12 @@
       <Filter>源文件\Lexer</Filter>
     </ClCompile>
     <ClCompile Include="Lexer\Reader.cpp">
+      <Filter>源文件\Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="Token\SignToken.cpp">
+      <Filter>源文件\Token</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexer\Matcher.cpp">
       <Filter>源文件\Lexer</Filter>
     </ClCompile>
   </ItemGroup>
