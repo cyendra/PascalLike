@@ -70,6 +70,7 @@
     <ClInclude Include="Inter\Node.h" />
     <ClInclude Include="Inter\Op.h" />
     <ClInclude Include="Inter\Temp.h" />
+    <ClInclude Include="Inter\Unary.h" />
     <ClInclude Include="Lexer\Lexer.h" />
     <ClInclude Include="Lexer\Matcher.h" />
     <ClInclude Include="Lexer\Reader.h" />
@@ -94,6 +95,7 @@
     <ClCompile Include="Inter\Node.cpp" />
     <ClCompile Include="Inter\Op.cpp" />
     <ClCompile Include="Inter\Temp.cpp" />
+    <ClCompile Include="Inter\Unary.cpp" />
     <ClCompile Include="Lexer\Lexer.cpp" />
     <ClCompile Include="Lexer\Matcher.cpp" />
     <ClCompile Include="Lexer\Reader.cpp" />
