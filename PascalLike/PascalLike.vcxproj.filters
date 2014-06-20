@@ -100,7 +100,10 @@
       <Filter>头文件\Inter</Filter>
     </ClInclude>
     <ClInclude Include="Inter\Temp.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\Inter</Filter>
+    </ClInclude>
+    <ClInclude Include="Inter\Arith.h">
+      <Filter>头文件\Inter</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -162,7 +165,10 @@
       <Filter>源文件\Inter</Filter>
     </ClCompile>
     <ClCompile Include="Inter\Temp.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Inter</Filter>
+    </ClCompile>
+    <ClCompile Include="Inter\Arith.cpp">
+      <Filter>源文件\Inter</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

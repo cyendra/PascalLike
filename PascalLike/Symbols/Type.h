@@ -10,6 +10,8 @@ public:
 	Type(VarType t);
 	~Type();
 	bool isType(VarType t);
+	static bool numeric(Type p);
+	static Type max(Type p1, Type p2);
 private:
 	VarType type;
 };

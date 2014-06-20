@@ -1,7 +1,7 @@
 #include "Op.h"
 
 
-Op::Op(OperatorToken* tok, Type p) :Expr(tok, p)
+Op::Op(Token* tok, Type p) :Expr(tok, p)
 {
 }
 
@@ -14,6 +14,6 @@ Expr* Op::reduce()
 {
 	Expr* x = gen();
 	Temp* t = new Temp(type);
-	emit(" = " + x->toString());
-	return x;
+	emit(t->toString() + " = " + x->toString());
+	return t;
 }

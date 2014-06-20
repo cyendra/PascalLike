@@ -4,7 +4,7 @@
 class Op :public Expr
 {
 public:
-	Op(OperatorToken* tok, Type p);
+	Op(Token* tok, Type p);
 	virtual ~Op();
 	virtual Expr* reduce();
 };
