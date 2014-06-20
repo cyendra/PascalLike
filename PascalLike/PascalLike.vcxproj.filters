@@ -90,6 +90,9 @@
     <ClInclude Include="Symbols\Env.h">
       <Filter>头文件\Symbols</Filter>
     </ClInclude>
+    <ClInclude Include="Symbols\Type.h">
+      <Filter>头文件\Symbols</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Token\Token.cpp">
@@ -138,6 +141,9 @@
       <Filter>源文件\Inter</Filter>
     </ClCompile>
     <ClCompile Include="Symbols\Env.cpp">
+      <Filter>源文件\Symbols</Filter>
+    </ClCompile>
+    <ClCompile Include="Symbols\Type.cpp">
       <Filter>源文件\Symbols</Filter>
     </ClCompile>
   </ItemGroup>

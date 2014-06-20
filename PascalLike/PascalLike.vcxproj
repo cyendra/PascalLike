@@ -71,6 +71,7 @@
     <ClInclude Include="Lexer\Reader.h" />
     <ClInclude Include="std.h" />
     <ClInclude Include="Symbols\Env.h" />
+    <ClInclude Include="Symbols\Type.h" />
     <ClInclude Include="Token\alltoken.h" />
     <ClInclude Include="Token\IdToken.h" />
     <ClInclude Include="Token\IntegerToken.h" />
@@ -90,6 +91,7 @@
     <ClCompile Include="Lexer\Reader.cpp" />
     <ClCompile Include="MainTest.cpp" />
     <ClCompile Include="Symbols\Env.cpp" />
+    <ClCompile Include="Symbols\Type.cpp" />
     <ClCompile Include="Token\IdToken.cpp" />
     <ClCompile Include="Token\IntegerToken.cpp" />
     <ClCompile Include="Token\NumToken.cpp" />
