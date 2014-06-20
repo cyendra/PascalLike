@@ -48,6 +48,14 @@ std::string Matcher::scan()
 		if (readch('>')) return "<>";
 		if (readch('=')) return "<=";
 		return "<";
+	case '+':
+		return "+";
+	case '-':
+		return "-";
+	case '*':
+		return "*";
+	case '/':
+		return "/";
 	}
 	
 	if (peek == '\"')

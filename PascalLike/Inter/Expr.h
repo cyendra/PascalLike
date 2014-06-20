@@ -2,7 +2,7 @@
 #include "Node.h"
 #include "../Symbols/Type.h"
 
-class Expr :Node
+class Expr :public Node
 {
 public:
 	Expr(Token* tok, Type p);
@@ -10,9 +10,9 @@ public:
 	Token *op;
 	Type type;
 	virtual Expr* gen();
-	Expr* reduce();
-	void jumping(int t, int f);
-	void emitjumps(std::string test, int t, int f);
+	virtual Expr* reduce();
+	virtual void jumping(int t, int f);
+	virtual void emitjumps(std::string test, int t, int f);
 	virtual std::string toString();
 	
 };

@@ -65,7 +65,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Inter\Expr.h" />
+    <ClInclude Include="Inter\Id.h" />
     <ClInclude Include="Inter\Node.h" />
+    <ClInclude Include="Inter\Op.h" />
+    <ClInclude Include="Inter\Temp.h" />
     <ClInclude Include="Lexer\Lexer.h" />
     <ClInclude Include="Lexer\Matcher.h" />
     <ClInclude Include="Lexer\Reader.h" />
@@ -85,7 +88,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Inter\Expr.cpp" />
+    <ClCompile Include="Inter\Id.cpp" />
     <ClCompile Include="Inter\Node.cpp" />
+    <ClCompile Include="Inter\Op.cpp" />
+    <ClCompile Include="Inter\Temp.cpp" />
     <ClCompile Include="Lexer\Lexer.cpp" />
     <ClCompile Include="Lexer\Matcher.cpp" />
     <ClCompile Include="Lexer\Reader.cpp" />

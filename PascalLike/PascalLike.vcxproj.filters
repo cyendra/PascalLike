@@ -93,6 +93,15 @@
     <ClInclude Include="Symbols\Type.h">
       <Filter>头文件\Symbols</Filter>
     </ClInclude>
+    <ClInclude Include="Inter\Id.h">
+      <Filter>头文件\Inter</Filter>
+    </ClInclude>
+    <ClInclude Include="Inter\Op.h">
+      <Filter>头文件\Inter</Filter>
+    </ClInclude>
+    <ClInclude Include="Inter\Temp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Token\Token.cpp">
@@ -145,6 +154,15 @@
     </ClCompile>
     <ClCompile Include="Symbols\Type.cpp">
       <Filter>源文件\Symbols</Filter>
+    </ClCompile>
+    <ClCompile Include="Inter\Id.cpp">
+      <Filter>源文件\Inter</Filter>
+    </ClCompile>
+    <ClCompile Include="Inter\Op.cpp">
+      <Filter>源文件\Inter</Filter>
+    </ClCompile>
+    <ClCompile Include="Inter\Temp.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
