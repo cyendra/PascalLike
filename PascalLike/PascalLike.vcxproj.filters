@@ -31,6 +31,12 @@
     <Filter Include="源文件\Inter">
       <UniqueIdentifier>{6a79b1c5-0c39-447d-a595-64efde166222}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Symbols">
+      <UniqueIdentifier>{aba2b539-bc4a-4231-84e7-3f16822a5be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Symbols">
+      <UniqueIdentifier>{c793a449-c4d0-46df-afac-35e745dea67e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Token\Token.h">
@@ -78,6 +84,12 @@
     <ClInclude Include="Inter\Node.h">
       <Filter>头文件\Inter</Filter>
     </ClInclude>
+    <ClInclude Include="Inter\Expr.h">
+      <Filter>头文件\Inter</Filter>
+    </ClInclude>
+    <ClInclude Include="Symbols\Env.h">
+      <Filter>头文件\Symbols</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Token\Token.cpp">
@@ -121,6 +133,12 @@
     </ClCompile>
     <ClCompile Include="Inter\Node.cpp">
       <Filter>源文件\Inter</Filter>
+    </ClCompile>
+    <ClCompile Include="Inter\Expr.cpp">
+      <Filter>源文件\Inter</Filter>
+    </ClCompile>
+    <ClCompile Include="Symbols\Env.cpp">
+      <Filter>源文件\Symbols</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

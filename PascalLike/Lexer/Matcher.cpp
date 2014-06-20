@@ -34,7 +34,7 @@ std::string Matcher::scan()
 		endOfLine = true;
 		return "";
 	}
-	group = Literal;
+	group = Operator;
 	
 	switch (peek)
 	{

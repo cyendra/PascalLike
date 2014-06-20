@@ -5,7 +5,7 @@ class Matcher
 public:
 	enum Group
 	{
-		Unkown, Integer, Real, String, Literal
+		Unkown, Integer, Real, String, Literal, Operator
 	};
 	Matcher();
 	~Matcher();

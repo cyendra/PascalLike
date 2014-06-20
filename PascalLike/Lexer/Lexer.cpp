@@ -96,7 +96,18 @@ void Lexer::addToken(string tok)
 	}
 	else if (matcher.group == Matcher::Literal)
 	{
-		token = new IdToken(tok.c_str());
+		if (Token::inReserved(tok.c_str()))
+		{
+			token = new ReservedToken(tok.c_str());
+		}
+		else
+		{
+			token = new IdToken(tok.c_str());
+		}
+	}
+	else if (matcher.group == Matcher::Operator)
+	{
+		token = new OperatorToken(tok.c_str());
 	}
 	else
 	{
