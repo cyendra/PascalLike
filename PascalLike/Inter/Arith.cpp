@@ -7,7 +7,7 @@ Arith::Arith(Token* tok, Expr* x1, Expr* x2) :Op(tok, Type::UnkownVarType)
 	type = Type::max(expr1->type ,expr2->type);
 	if (type.isType(Type::UnkownVarType))
 	{
-		throw std::exception("type error");
+		error("type error");
 	}
 }
 
