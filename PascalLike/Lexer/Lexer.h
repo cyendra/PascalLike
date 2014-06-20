@@ -13,11 +13,12 @@ public:
 	~Lexer();
 	Token* read();
 	Token* peek(int i);
+	static int getLineNumber();
 protected:
 	void readLine();
 	void addToken(string tok);
 	string toStringLiteral(string s);
-
+	static int line;
 private:
 	ArrayList queue;
 	bool hasMore;

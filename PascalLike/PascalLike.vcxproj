@@ -64,6 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Inter\Node.h" />
     <ClInclude Include="Lexer\Lexer.h" />
     <ClInclude Include="Lexer\Matcher.h" />
     <ClInclude Include="Lexer\Reader.h" />
@@ -80,6 +81,7 @@
     <ClInclude Include="Token\Token.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Inter\Node.cpp" />
     <ClCompile Include="Lexer\Lexer.cpp" />
     <ClCompile Include="Lexer\Matcher.cpp" />
     <ClCompile Include="Lexer\Reader.cpp" />

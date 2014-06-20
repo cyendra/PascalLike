@@ -3,6 +3,7 @@
 Lexer::Lexer()
 {
 	hasMore = true;
+
 }
 
 
@@ -16,6 +17,7 @@ Token* Lexer::read()
 	{
 		Token* res = queue.front();
 		queue.erase(queue.begin());
+		if (res->isTag(Token::Eol)) line++;
 		return res;
 	}
 	else
@@ -127,3 +129,11 @@ Lexer::string Lexer::toStringLiteral(string s)
 	}
 	return buf;
 }
+
+
+int Lexer::getLineNumber()
+{
+	return line;
+}
+
+int Lexer::line = 1;

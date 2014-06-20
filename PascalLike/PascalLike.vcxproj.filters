@@ -25,6 +25,12 @@
     <Filter Include="头文件\Lexer">
       <UniqueIdentifier>{43f3cf57-fa08-4e72-80b1-d91802b19e01}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Inter">
+      <UniqueIdentifier>{1377f2fc-c5e0-4722-9613-ecfaabfec7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Inter">
+      <UniqueIdentifier>{6a79b1c5-0c39-447d-a595-64efde166222}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Token\Token.h">
@@ -69,6 +75,9 @@
     <ClInclude Include="Lexer\Matcher.h">
       <Filter>头文件\Lexer</Filter>
     </ClInclude>
+    <ClInclude Include="Inter\Node.h">
+      <Filter>头文件\Inter</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Token\Token.cpp">
@@ -109,6 +118,9 @@
     </ClCompile>
     <ClCompile Include="Lexer\Matcher.cpp">
       <Filter>源文件\Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="Inter\Node.cpp">
+      <Filter>源文件\Inter</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
