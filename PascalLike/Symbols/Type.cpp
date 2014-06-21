@@ -34,3 +34,4 @@ Type Type::max(Type p1, Type p2)
 	if (p1.isType(Type::boolean) || p2.isType(Type::boolean)) return Type::boolean;
 	return Type::UnkownVarType;
 }
+

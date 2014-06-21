@@ -123,6 +123,9 @@
     <ClInclude Include="Inter\Not.h">
       <Filter>头文件\Inter</Filter>
     </ClInclude>
+    <ClInclude Include="Inter\Rel.h">
+      <Filter>头文件\Inter</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Token\Token.cpp">
@@ -204,6 +207,9 @@
       <Filter>源文件\Inter</Filter>
     </ClCompile>
     <ClCompile Include="Inter\Not.cpp">
+      <Filter>源文件\Inter</Filter>
+    </ClCompile>
+    <ClCompile Include="Inter\Rel.cpp">
       <Filter>源文件\Inter</Filter>
     </ClCompile>
   </ItemGroup>

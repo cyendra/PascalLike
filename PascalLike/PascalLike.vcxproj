@@ -74,6 +74,7 @@
     <ClInclude Include="Inter\Not.h" />
     <ClInclude Include="Inter\Op.h" />
     <ClInclude Include="Inter\Or.h" />
+    <ClInclude Include="Inter\Rel.h" />
     <ClInclude Include="Inter\Temp.h" />
     <ClInclude Include="Inter\Unary.h" />
     <ClInclude Include="Lexer\Lexer.h" />
@@ -104,6 +105,7 @@
     <ClCompile Include="Inter\Not.cpp" />
     <ClCompile Include="Inter\Op.cpp" />
     <ClCompile Include="Inter\Or.cpp" />
+    <ClCompile Include="Inter\Rel.cpp" />
     <ClCompile Include="Inter\Temp.cpp" />
     <ClCompile Include="Inter\Unary.cpp" />
     <ClCompile Include="Lexer\Lexer.cpp" />
