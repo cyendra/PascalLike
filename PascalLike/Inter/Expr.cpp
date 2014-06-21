@@ -5,7 +5,6 @@ Expr::Expr(Token* tok, Type p)
 {
 	op = tok;
 	type = p;
-	
 }
 
 

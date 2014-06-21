@@ -109,6 +109,9 @@
       <Filter>头文件\Inter</Filter>
     </ClInclude>
     <ClInclude Include="Inter\Constant.h">
+      <Filter>头文件\Inter</Filter>
+    </ClInclude>
+    <ClInclude Include="Inter\Logical.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -180,6 +183,9 @@
       <Filter>源文件\Inter</Filter>
     </ClCompile>
     <ClCompile Include="Inter\Constant.cpp">
+      <Filter>源文件\Inter</Filter>
+    </ClCompile>
+    <ClCompile Include="Inter\Logical.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

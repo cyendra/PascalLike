@@ -1,7 +1,7 @@
 #pragma once
 #include "../std.h"
 #include "../Lexer/Lexer.h"
-#include "Temp.h"
+#include "../Symbols/Type.h"
 class Node
 {
 public:
