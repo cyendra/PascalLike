@@ -64,6 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Inter\And.h" />
     <ClInclude Include="Inter\Arith.h" />
     <ClInclude Include="Inter\Constant.h" />
     <ClInclude Include="Inter\Expr.h" />
@@ -92,6 +93,7 @@
     <ClInclude Include="Token\Token.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Inter\And.cpp" />
     <ClCompile Include="Inter\Arith.cpp" />
     <ClCompile Include="Inter\Constant.cpp" />
     <ClCompile Include="Inter\Expr.cpp" />
