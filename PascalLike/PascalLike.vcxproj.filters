@@ -118,7 +118,10 @@
       <Filter>头文件\Inter</Filter>
     </ClInclude>
     <ClInclude Include="Inter\And.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\Inter</Filter>
+    </ClInclude>
+    <ClInclude Include="Inter\Not.h">
+      <Filter>头文件\Inter</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -198,7 +201,10 @@
       <Filter>源文件\Inter</Filter>
     </ClCompile>
     <ClCompile Include="Inter\And.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Inter</Filter>
+    </ClCompile>
+    <ClCompile Include="Inter\Not.cpp">
+      <Filter>源文件\Inter</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
