@@ -4,7 +4,7 @@ class Type
 public:
 	enum VarType
 	{
-		UnkownVarType, integer, real, string
+		UnkownVarType, integer, real, string, boolean
 	};
 	Type();
 	Type(VarType t);

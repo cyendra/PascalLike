@@ -65,6 +65,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Inter\Arith.h" />
+    <ClInclude Include="Inter\Constant.h" />
     <ClInclude Include="Inter\Expr.h" />
     <ClInclude Include="Inter\Id.h" />
     <ClInclude Include="Inter\Node.h" />
@@ -90,6 +91,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Inter\Arith.cpp" />
+    <ClCompile Include="Inter\Constant.cpp" />
     <ClCompile Include="Inter\Expr.cpp" />
     <ClCompile Include="Inter\Id.cpp" />
     <ClCompile Include="Inter\Node.cpp" />
@@ -114,6 +116,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

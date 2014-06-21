@@ -31,5 +31,6 @@ Type Type::max(Type p1, Type p2)
 	if (p1.isType(Type::string) || p2.isType(Type::string)) return Type::string;
 	if (p1.isType(Type::real) || p2.isType(Type::real)) return Type::real;
 	if (p1.isType(Type::integer) || p2.isType(Type::integer)) return Type::integer;
+	if (p1.isType(Type::boolean) || p2.isType(Type::boolean)) return Type::boolean;
 	return Type::UnkownVarType;
 }

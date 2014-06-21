@@ -108,6 +108,9 @@
     <ClInclude Include="Inter\Unary.h">
       <Filter>头文件\Inter</Filter>
     </ClInclude>
+    <ClInclude Include="Inter\Constant.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Token\Token.cpp">
@@ -176,8 +179,12 @@
     <ClCompile Include="Inter\Unary.cpp">
       <Filter>源文件\Inter</Filter>
     </ClCompile>
+    <ClCompile Include="Inter\Constant.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
 </Project>
