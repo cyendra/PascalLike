@@ -76,6 +76,7 @@
     <ClInclude Include="Inter\Op.h" />
     <ClInclude Include="Inter\Or.h" />
     <ClInclude Include="Inter\Rel.h" />
+    <ClInclude Include="Inter\Stmt.h" />
     <ClInclude Include="Inter\Temp.h" />
     <ClInclude Include="Inter\Unary.h" />
     <ClInclude Include="Lexer\Lexer.h" />
@@ -108,6 +109,7 @@
     <ClCompile Include="Inter\Op.cpp" />
     <ClCompile Include="Inter\Or.cpp" />
     <ClCompile Include="Inter\Rel.cpp" />
+    <ClCompile Include="Inter\Stmt.cpp" />
     <ClCompile Include="Inter\Temp.cpp" />
     <ClCompile Include="Inter\Unary.cpp" />
     <ClCompile Include="Lexer\Lexer.cpp" />
@@ -125,10 +127,6 @@
     <ClCompile Include="Token\SignToken.cpp" />
     <ClCompile Include="Token\StrToken.cpp" />
     <ClCompile Include="Token\Token.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
