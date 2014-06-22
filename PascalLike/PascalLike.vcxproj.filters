@@ -132,6 +132,9 @@
     <ClInclude Include="Inter\Stmt.h">
       <Filter>头文件\Inter</Filter>
     </ClInclude>
+    <ClInclude Include="Inter\If.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Token\Token.cpp">
@@ -223,6 +226,9 @@
     </ClCompile>
     <ClCompile Include="Inter\Stmt.cpp">
       <Filter>源文件\Inter</Filter>
+    </ClCompile>
+    <ClCompile Include="Inter\If.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

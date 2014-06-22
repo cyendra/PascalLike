@@ -7,9 +7,9 @@ class Node
 public:
 	Node();
 	virtual ~Node();
+	virtual void error(std::string s);
 protected:
 	int lexLine;
-	virtual void error(std::string s);
 	static int labels;
 public:
 	virtual int newLabel();

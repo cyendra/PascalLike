@@ -70,6 +70,7 @@
     <ClInclude Include="Inter\Constant.h" />
     <ClInclude Include="Inter\Expr.h" />
     <ClInclude Include="Inter\Id.h" />
+    <ClInclude Include="Inter\If.h" />
     <ClInclude Include="Inter\Logical.h" />
     <ClInclude Include="Inter\Node.h" />
     <ClInclude Include="Inter\Not.h" />
@@ -103,6 +104,7 @@
     <ClCompile Include="Inter\Constant.cpp" />
     <ClCompile Include="Inter\Expr.cpp" />
     <ClCompile Include="Inter\Id.cpp" />
+    <ClCompile Include="Inter\If.cpp" />
     <ClCompile Include="Inter\Logical.cpp" />
     <ClCompile Include="Inter\Node.cpp" />
     <ClCompile Include="Inter\Not.cpp" />
