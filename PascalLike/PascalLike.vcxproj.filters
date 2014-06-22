@@ -133,7 +133,10 @@
       <Filter>头文件\Inter</Filter>
     </ClInclude>
     <ClInclude Include="Inter\If.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\Inter</Filter>
+    </ClInclude>
+    <ClInclude Include="Inter\Else.h">
+      <Filter>头文件\Inter</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -228,7 +231,10 @@
       <Filter>源文件\Inter</Filter>
     </ClCompile>
     <ClCompile Include="Inter\If.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Inter</Filter>
+    </ClCompile>
+    <ClCompile Include="Inter\Else.cpp">
+      <Filter>源文件\Inter</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -68,6 +68,7 @@
     <ClInclude Include="Inter\And.h" />
     <ClInclude Include="Inter\Arith.h" />
     <ClInclude Include="Inter\Constant.h" />
+    <ClInclude Include="Inter\Else.h" />
     <ClInclude Include="Inter\Expr.h" />
     <ClInclude Include="Inter\Id.h" />
     <ClInclude Include="Inter\If.h" />
@@ -102,6 +103,7 @@
     <ClCompile Include="Inter\And.cpp" />
     <ClCompile Include="Inter\Arith.cpp" />
     <ClCompile Include="Inter\Constant.cpp" />
+    <ClCompile Include="Inter\Else.cpp" />
     <ClCompile Include="Inter\Expr.cpp" />
     <ClCompile Include="Inter\Id.cpp" />
     <ClCompile Include="Inter\If.cpp" />
