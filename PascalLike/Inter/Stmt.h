@@ -8,5 +8,7 @@ public:
 	virtual ~Stmt();
 	virtual void gen(int b, int a);
 	int after;
+	static Stmt* NullStmt;
+	static Stmt* Enclosing;
 };
 

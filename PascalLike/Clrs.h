@@ -8,5 +8,6 @@ public:
 	void gao();
 	static Clrs c;
 	static Clrs* p;
+	static Clrs* wow;
 };
 

@@ -16,3 +16,4 @@ void Clrs::gao()
 }
 Clrs Clrs::c;
 Clrs* Clrs::p = &c;
+Clrs* Clrs::wow = new Clrs();
