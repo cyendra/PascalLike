@@ -141,6 +141,9 @@
     <ClInclude Include="Inter\While.h">
       <Filter>头文件\Inter</Filter>
     </ClInclude>
+    <ClInclude Include="Inter\Set.h">
+      <Filter>头文件\Inter</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Token\Token.cpp">
@@ -242,8 +245,12 @@
     <ClCompile Include="Inter\While.cpp">
       <Filter>源文件\Inter</Filter>
     </ClCompile>
+    <ClCompile Include="Inter\Set.cpp">
+      <Filter>源文件\Inter</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
 </Project>
