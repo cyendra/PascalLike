@@ -28,3 +28,4 @@ std::string Temp::toString()
 }
 
 int Temp::count = 0;
+std::vector<Token*> Temp::temps;

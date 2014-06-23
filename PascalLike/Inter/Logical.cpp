@@ -22,7 +22,7 @@ Expr* Logical::gen()
 	int a = newLabel();
 	Temp* temp = new Temp(type);
 	this->jumping(0, f);
-	emit(temp->toString + " = true");
+	emit(temp->toString() + " = true");
 	buf << "goto L" << a << std::endl;
 	std::getline(buf, s);
 	emit(s);
@@ -37,3 +37,9 @@ std::string Logical::toString()
 	return expr1->toString() + " " + op->getText() + " " + expr2->toString();
 }
 
+
+Type Logical::check(Type p1, Type p2)
+{
+	if (p1.isType(Type::boolean) && p2.isType(Type::boolean)) return Type::boolean;
+	return Type::UnkownVarType;
+}

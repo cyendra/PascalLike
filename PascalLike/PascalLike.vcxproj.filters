@@ -37,6 +37,9 @@
     <Filter Include="源文件\Symbols">
       <UniqueIdentifier>{c793a449-c4d0-46df-afac-35e745dea67e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TestTool">
+      <UniqueIdentifier>{2ddc86d3-b971-4cbf-b07c-d90a644397e9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Token\Token.h">
@@ -144,6 +147,12 @@
     <ClInclude Include="Inter\Set.h">
       <Filter>头文件\Inter</Filter>
     </ClInclude>
+    <ClInclude Include="Inter\Seq.h">
+      <Filter>头文件\Inter</Filter>
+    </ClInclude>
+    <ClInclude Include="Clrs.h">
+      <Filter>TestTool</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Token\Token.cpp">
@@ -247,6 +256,12 @@
     </ClCompile>
     <ClCompile Include="Inter\Set.cpp">
       <Filter>源文件\Inter</Filter>
+    </ClCompile>
+    <ClCompile Include="Inter\Seq.cpp">
+      <Filter>源文件\Inter</Filter>
+    </ClCompile>
+    <ClCompile Include="Clrs.cpp">
+      <Filter>TestTool</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

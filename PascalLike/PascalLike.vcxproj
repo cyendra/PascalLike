@@ -64,6 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Clrs.h" />
     <ClInclude Include="Inter\Access.h" />
     <ClInclude Include="Inter\And.h" />
     <ClInclude Include="Inter\Arith.h" />
@@ -78,6 +79,7 @@
     <ClInclude Include="Inter\Op.h" />
     <ClInclude Include="Inter\Or.h" />
     <ClInclude Include="Inter\Rel.h" />
+    <ClInclude Include="Inter\Seq.h" />
     <ClInclude Include="Inter\Set.h" />
     <ClInclude Include="Inter\Stmt.h" />
     <ClInclude Include="Inter\Temp.h" />
@@ -101,6 +103,7 @@
     <ClInclude Include="Token\Token.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Clrs.cpp" />
     <ClCompile Include="Inter\Access.cpp" />
     <ClCompile Include="Inter\And.cpp" />
     <ClCompile Include="Inter\Arith.cpp" />
@@ -115,6 +118,7 @@
     <ClCompile Include="Inter\Op.cpp" />
     <ClCompile Include="Inter\Or.cpp" />
     <ClCompile Include="Inter\Rel.cpp" />
+    <ClCompile Include="Inter\Seq.cpp" />
     <ClCompile Include="Inter\Set.cpp" />
     <ClCompile Include="Inter\Stmt.cpp" />
     <ClCompile Include="Inter\Temp.cpp" />
