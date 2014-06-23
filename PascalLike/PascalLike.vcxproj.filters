@@ -153,6 +153,9 @@
     <ClInclude Include="Clrs.h">
       <Filter>TestTool</Filter>
     </ClInclude>
+    <ClInclude Include="Inter\Break.h">
+      <Filter>头文件\Inter</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Token\Token.cpp">
@@ -262,6 +265,9 @@
     </ClCompile>
     <ClCompile Include="Clrs.cpp">
       <Filter>TestTool</Filter>
+    </ClCompile>
+    <ClCompile Include="Inter\Break.cpp">
+      <Filter>源文件\Inter</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

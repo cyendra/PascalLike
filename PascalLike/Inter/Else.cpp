@@ -24,7 +24,7 @@ void Else::gen(int b, int a)
 	std::stringstream buf;
 	std::string s;
 	buf << "goto L" << a << std::endl;
-	buf >> s;
+	std::getline(buf, s);
 	emit(s);
 	emitLabel(label2);
 	stmt2->gen(label2, a);

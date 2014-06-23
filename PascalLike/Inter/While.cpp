@@ -29,6 +29,6 @@ void While::gen(int b, int a)
 	std::stringstream buf;
 	std::string s;
 	buf << "goto L" << b << std::endl;
-	buf >> s;
+	std::getline(buf, s);
 	emit(s);
 }
