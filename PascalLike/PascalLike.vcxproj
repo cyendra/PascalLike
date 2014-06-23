@@ -81,6 +81,7 @@
     <ClInclude Include="Inter\Stmt.h" />
     <ClInclude Include="Inter\Temp.h" />
     <ClInclude Include="Inter\Unary.h" />
+    <ClInclude Include="Inter\While.h" />
     <ClInclude Include="Lexer\Lexer.h" />
     <ClInclude Include="Lexer\Matcher.h" />
     <ClInclude Include="Lexer\Reader.h" />
@@ -116,6 +117,7 @@
     <ClCompile Include="Inter\Stmt.cpp" />
     <ClCompile Include="Inter\Temp.cpp" />
     <ClCompile Include="Inter\Unary.cpp" />
+    <ClCompile Include="Inter\While.cpp" />
     <ClCompile Include="Lexer\Lexer.cpp" />
     <ClCompile Include="Lexer\Matcher.cpp" />
     <ClCompile Include="Lexer\Reader.cpp" />
@@ -131,6 +133,9 @@
     <ClCompile Include="Token\SignToken.cpp" />
     <ClCompile Include="Token\StrToken.cpp" />
     <ClCompile Include="Token\Token.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
