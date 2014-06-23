@@ -40,6 +40,12 @@
     <Filter Include="TestTool">
       <UniqueIdentifier>{2ddc86d3-b971-4cbf-b07c-d90a644397e9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Parser">
+      <UniqueIdentifier>{91f1b2ec-cfcc-4b46-bfd5-2ae38301ddbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Parser">
+      <UniqueIdentifier>{5596063b-884b-4f11-ad9a-3c8f2a49c682}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Token\Token.h">
@@ -156,6 +162,12 @@
     <ClInclude Include="Inter\Break.h">
       <Filter>头文件\Inter</Filter>
     </ClInclude>
+    <ClInclude Include="Parser\Parser.h">
+      <Filter>头文件\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Inter\allnode.h">
+      <Filter>头文件\Inter</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Token\Token.cpp">
@@ -269,9 +281,13 @@
     <ClCompile Include="Inter\Break.cpp">
       <Filter>源文件\Inter</Filter>
     </ClCompile>
+    <ClCompile Include="Parser\Parser.cpp">
+      <Filter>源文件\Parser</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
     <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
   </ItemGroup>
 </Project>

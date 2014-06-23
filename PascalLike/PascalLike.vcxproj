@@ -66,6 +66,7 @@
   <ItemGroup>
     <ClInclude Include="Clrs.h" />
     <ClInclude Include="Inter\Access.h" />
+    <ClInclude Include="Inter\allnode.h" />
     <ClInclude Include="Inter\And.h" />
     <ClInclude Include="Inter\Arith.h" />
     <ClInclude Include="Inter\Break.h" />
@@ -89,6 +90,7 @@
     <ClInclude Include="Lexer\Lexer.h" />
     <ClInclude Include="Lexer\Matcher.h" />
     <ClInclude Include="Lexer\Reader.h" />
+    <ClInclude Include="Parser\Parser.h" />
     <ClInclude Include="std.h" />
     <ClInclude Include="Symbols\Env.h" />
     <ClInclude Include="Symbols\Type.h" />
@@ -130,6 +132,7 @@
     <ClCompile Include="Lexer\Matcher.cpp" />
     <ClCompile Include="Lexer\Reader.cpp" />
     <ClCompile Include="MainTest.cpp" />
+    <ClCompile Include="Parser\Parser.cpp" />
     <ClCompile Include="Symbols\Env.cpp" />
     <ClCompile Include="Symbols\Type.cpp" />
     <ClCompile Include="Token\IdToken.cpp" />
@@ -145,6 +148,7 @@
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
     <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

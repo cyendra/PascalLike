@@ -1,8 +1,9 @@
 
 #include "Clrs.h"
+#include "Parser\Parser.h"
 using namespace std;
 
-
+Parser p;
 int main()
 {
 	Clrs c;
