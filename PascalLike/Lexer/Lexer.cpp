@@ -72,7 +72,7 @@ void Lexer::readLine()
 		}
 		addToken(tok);
 	}
-	queue.push_back(new SignToken(Token::Eol));
+	//queue.push_back(new SignToken(Token::Eol));
 }
 
 void Lexer::addToken(string tok)

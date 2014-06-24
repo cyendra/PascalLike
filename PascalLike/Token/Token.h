@@ -12,7 +12,7 @@ public:
 
 	// 具体的标签
 	enum Tag { 
-		None, Integer, Real,
+		None, Integer, Real, Boolean,
 		Reserved, Operator,
 		Eof, Eol
 	};
